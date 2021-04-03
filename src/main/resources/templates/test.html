@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" th:href="@{../css/test.css}"/>
+</head>
+<body>
+<div class="starter-template">
+    <h1>Test template</h1>
+    <h2>
+        <span th:text="'Hello, ' + ${resume.summary.text}"></span>
+    </h2>
+</div>
+</body>
+</html>

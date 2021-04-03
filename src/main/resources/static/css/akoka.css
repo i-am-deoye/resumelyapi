@@ -1,0 +1,149 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color:lightgrey;
+}
+
+.main-cv {
+    background-color:#FFF;
+}
+
+
+.cv-wrapper {
+    padding:4rem;
+    min-height:100vh;
+    box-shadow: 12px 12px 24px -8px rgba(0, 0, 0, 0.05);
+}
+
+.user-name {
+    font-weight:700;
+    font-size:1.5rem;
+    text-transform:uppercase;
+    letter-spacing:0.25rem;
+}
+
+.user-profile {
+    font-size:.9rem;
+}
+
+.user-position {
+    display: block;
+    font-size: .75rem;
+    letter-spacing: 0.25rem;
+    text-transform:uppercase;
+}
+
+.user-contact-info {
+    font-size:.8rem;
+}
+
+.user-contact-info p {
+    margin-bottom:0;
+}
+
+.user-social-media-links {
+    font-size:.8rem;
+}
+
+.user-social-media-links p {
+    margin-bottom:0;
+}
+
+.section-header {
+    font-size: .9rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.user-degree-details {
+    margin-bottom:2rem;
+}
+
+.user-degree-details p {
+    margin-bottom:0;
+}
+
+.user-profile-section {
+    margin-bottom:3.5rem;
+}
+
+.user-experience-section p, .skills-section {
+    font-size: .9rem;
+}
+
+.skill-bar {
+    width:100%;
+    height:5px;
+    display:block;
+    background:linear-gradient(to right, #000, #000 70%, gray 70%, gray 100%);
+}
+
+.degree-name {
+    font-weight:800;
+}
+
+.work-experience-date, .work-experience-title {
+    margin-bottom:0;
+}
+
+.work-experience-title {
+    font-weight:800;
+}
+
+.reference-details p {
+    font-size:.9rem;
+    margin-bottom:0;
+}
+
+.referee-contact-type-label, .referee-name {
+    font-weight:800;
+}
+
+.referee-email {
+    margin-bottom:1rem;
+}
+
+.reference-details {
+    margin-bottom:2rem;
+}
+
+.col-6.text-right {
+    border-right:1px solid black;
+}
+
+.info-section-wrapper {
+    padding:0 1rem;
+}
+
+.user-bio-section {
+    margin-bottom:3rem;
+}
+
+.user-contact-info-wrapper {
+    margin-top:1rem;
+}
+
+.skills-type {
+    font-weight:800;
+}
+
+.profile-pic {
+    width:6rem;
+    height:6rem;
+    border-radius:50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.skills-section .skills-type {
+    margin-bottom:0;
+}
+
+.skills-section.professional {
+    margin-bottom:2rem;
+}
